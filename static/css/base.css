@@ -264,8 +264,15 @@ input[name='q']::placeholder {
     border-color: #dc3545;
     border-radius: 0;
 }
+.card-body a{
+ text-decoration: none !important;
+    color: #555 !important;
+}
+.card-body a:hover{
+    text-decoration: none;
+    cursor: pointer;
 
-
+}
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
     .fixed-top-desktop-only {
